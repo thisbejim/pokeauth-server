@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      "firebase-cron",
+      "/Users/james/Desktop/pokeauth-server"
+    ]
+  ],
+  "_from": "firebase-cron@*",
+  "_id": "firebase-cron@0.1.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/firebase-cron",
+  "_nodeVersion": "5.1.1",
+  "_npmUser": {
+    "email": "brian.woodward@gmail.com",
+    "name": "doowb"
+  },
+  "_npmVersion": "3.5.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "firebase-cron",
+    "raw": "firebase-cron",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/firebase-cron/-/firebase-cron-0.1.2.tgz",
+  "_shasum": "226bcb4a98e453cf7555540515585704d0c19149",
+  "_shrinkwrap": null,
+  "_spec": "firebase-cron",
+  "_where": "/Users/james/Desktop/pokeauth-server",
+  "author": {
+    "name": "Brian Woodward",
+    "url": "https://github.com/doowb"
+  },
+  "bugs": {
+    "url": "https://github.com/doowb/firebase-cron/issues"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "cron": "^1.1.0",
+    "lazy-cache": "^1.0.3",
+    "moment": "^2.10.6"
+  },
+  "description": "Store and run cron jobs with firebase.",
+  "devDependencies": {
+    "ansi-colors": "^0.1.0",
+    "firebase": "^2.3.2",
+    "firebase-queue": "^1.2.1",
+    "mocha": "^2.3.4",
+    "mockfirebase": "^0.12.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "226bcb4a98e453cf7555540515585704d0c19149",
+    "tarball": "https://registry.npmjs.org/firebase-cron/-/firebase-cron-0.1.2.tgz"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "gitHead": "2c5b3a9caa1cc68a67ad93dbf3107438e8ec202e",
+  "homepage": "https://github.com/doowb/firebase-cron",
+  "keywords": [
+    "cron",
+    "firebase",
+    "firebase-cron",
+    "firebase-queue",
+    "queue",
+    "schedule",
+    "scheduled"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "doowb",
+      "email": "brian.woodward@gmail.com"
+    }
+  ],
+  "name": "firebase-cron",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doowb/firebase-cron.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "verb": {
+    "related": {
+      "list": [
+        "firebase",
+        "firebase-queue"
+      ]
+    }
+  },
+  "version": "0.1.2"
+}
