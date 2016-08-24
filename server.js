@@ -152,6 +152,8 @@ app.listen(process.env.PORT || 5000, function () {
     // create cronjobs for regular token refresh
     // for Google we store: encrypted email and masterToken, allowing us to generate access tokens.
     // for PTC we store encrypted email and password, allowing us to generate access tokens.
+    // credentials are stored in Firebase with no read or write access. You can find the database
+    // rules in the pokeauth client repository
     cron.addJob('*/20 * * * *', data.uid,
       {
         email: data.email,
