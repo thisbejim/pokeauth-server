@@ -182,6 +182,7 @@ app.listen(process.env.PORT || 5000, function () {
 
   const removeUserRef = database.ref('removeUser');
   const removeUserQueue = new Queue(removeUserRef, async(data, progress, resolve, reject) => {
+    // users can at any time completely delete all their credentials from PokeAuth
     console.log(`\nRemoving user: ${data.uid}`);
     await database.ref('users').child(data.uid).remove();
     await database.ref('refresh').child('jobs').child(data.uid).remove();
