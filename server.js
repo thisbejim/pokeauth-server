@@ -149,6 +149,9 @@ app.listen(process.env.PORT || 5000, function () {
     console.log('Successfully generated the access token.')
 
     progress(60);
+    // create cronjobs for regular token refresh
+    // for Google we store: encrypted email and masterToken, allowing us to generate access tokens.
+    // for PTC we store encrypted email and password, allowing us to generate access tokens.
     cron.addJob('*/20 * * * *', data.uid,
       {
         email: data.email,
